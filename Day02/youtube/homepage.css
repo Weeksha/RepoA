@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(41, 10, 41);
+}
+.Exercises-YouTube {
+    font-family: Roboto, Arial, sans-serif;
+    padding-top: 57px;
+    padding-left: 72px;
+    background-color: rgb(249, 249, 249);
+}
+.top-panel{
+    font-family: Arial;
+    height: 40px;
+    background-color: rgb(73, 5, 81);
+    margin-left: 0;
+    margin-right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+    z-index: 100;
+}
+.left-section{
+    display: inline-block;
+    
+}
+.middle-section{
+    display: inline-block;
+    
+}
+.right-section{
+    display: inline-block;
+    
+}
+.youtube-logo{
+    width: 90px ;
+    display: inline-block;
+    vertical-align: middle;
+}
+.search-bar{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+
+}
+
+.top-panel-icon{
+    height: 24px;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.bottom{
+    margin-top: 60px;
+    font-family: Arial;
+    display: block;
+    background-color:rgb(73, 5, 81);
+}
+.side-menu{
+position: fixed;
+top: 0;
+left: 0;
+
+font-family: Arial;
+font-size: 12px;
+width: 74px;
+background-color: darkcyan;
+vertical-align: top;
+text-align: center;
+top: 40px;
+}
+.side-icons{
+    width: 24px;
+}
+.side-menu-block{
+font-size: 10px;
+margin-top: 1px;
+margin-bottom: 1px;
+height: 74px;
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-items: center;
+}
+.side-icon-text{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 22px;
+    background-color: aquamarine;
+    padding: 20px;
+    
+    
+}
+.video-block{
+    padding: 4px;
+    vertical-align: top;
+}
+.thumbnail{
+    position: relative;
+    border-radius: 10px;
+}
+.video-info{
+    font-family: Arial;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    margin-top: 10px;
+}
+.video-texts{
+    font-family: Arial;
+    width: 100%;
+    display: inline-block;
+    
+}
+.video-title{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    color: white;
+
+}
+.profile-name{
+    font-family: Arial;
+    color: grey;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+.video-stats{
+    font-family: Arial;
+    color: grey;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.profile-dp{
+    width: 50px;
+    vertical-align: top;
+    border-radius: 25px;
+}
+.profile-block{
+    width: 50px;
+    display: inline-block;
+}
